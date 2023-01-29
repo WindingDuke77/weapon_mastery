@@ -18,14 +18,12 @@ config.Blacklist = { // Weapons that are not allowed to be used for leveling up.
     ["keys"] = true,
     ["gmod_camera"] = true,
     ["itemstore_pickup"] = true 
-
 }
 
 config.BlacklistCatergorys = { // Weapons that are not allowed to be used for leveling up. (case sensitive)
     ["Half-Life 2"] = true, // DO NOT Remove, HL2 weapons cant be modified
     ["DarkRP (Utility)"] = true,
 }
-
 
 config.XPAmount = { // Amount XP given Per Action
     ["NPC Kill"] = 10,
@@ -44,6 +42,9 @@ config.RankModifier = { // makes it easier or harder to level up with a certain 
     // ["Rank"] = modifier
     ["moderator"] = 1.5,
     ["admin"] = 2,
+    ["superadmin"] = 3,
+    ["vip"] = 1.2,
+    ["vip+"] = 1.1,
 }
 
 
