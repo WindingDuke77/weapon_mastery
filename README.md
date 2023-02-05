@@ -18,6 +18,7 @@ Allows you users to level up their weapons and gain upgrades.
 
 1. 🗄️ Download The Zip
 2. 📁 Drop the contents into garrymod/addons
+3. ⬇ Download [Pixel-UI](https://github.com/TomDotBat/pixel-ui) and add it to the addon folder
 
 ## How to Config
 
