@@ -52,6 +52,13 @@ function ply_meta:AddWeaponMasteryXP(weapon, XP)
 
     sql.Query("UPDATE wmastery SET XP = '"..newXP.."', level = '"..newLevel.."', points = '"..points.."' WHERE steamID = '"..steamID.."' AND weapon = '"..weapon.."'")
     
+    if newLevel > 0 then
+        if wmastery.MODULE then
+            wmastery.MODULE:Log("{1} has gained {2} levels for {3} weapon", GAS.Logging:FormatPlayer(self), GAS.Logging:Highlight(newLevel), GAS.Logging:Highlight(weapon))
+        end
+    end
+
+
     local weaponEntity = weapons.Get(weapon) or {}
     local weaponName = weaponEntity.PrintName or weapon
     -- wmastery.notify(self, 0, 5, "You have leveled up your "..weaponName.." Mastery to level "..newLevel.."! You have "..points.." points to spend.")
@@ -157,6 +164,11 @@ function ply_meta:ResetWeaponMasteryPoints(weapon)
     local newPoints = tonumber(query.points) + cost
 
     sql.Query("UPDATE wmastery SET points = '"..newPoints.."' WHERE steamID = '"..steamID.."' AND weapon = '"..weapon.."'")
+
+    if wmastery.MODULE then
+        wmastery.MODULE:Log("{1} has reset {2} weapon", GAS.Logging:FormatPlayer(self), GAS.Logging:Highlight(weapon))
+    end
+
 
     return cost
 end

@@ -7,7 +7,7 @@ Allows you users to level up their weapons and gain upgrades.
 ## Features
 
 - SAM / ULX Support
-- Billy's Logs Support // Coming Soon
+- Billy's Logs Support
 - Easy Config
 
 ---
