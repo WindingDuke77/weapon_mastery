@@ -1,0 +1,17 @@
+{
+	"weapon_mastery/server/hooks.lua": "5937ffea23b494659f374085c5bbd21b49595ad2aa94a1e64e56b39d8896ee56",
+	"weapon_mastery/client/uiparts/fonts.lua": "9a835b12f294520c01bcc564ce60c934166f674519f7e632b8eccbadb6a3de56",
+	"weapon_mastery/shared/function.lua": "a64eb3efd8514eaca593520c804e313af7202932d77d8deacbd30290fbeaaa2c",
+	"weapon_mastery/client/utils.lua": "016d3a71036320140e3f62fe7b1954db2581c583cebb31a170a932a13ce28276",
+	"weapon_mastery/client/upgradehud.lua": "bd7f16dfa2a602ebace4d949772ccb8cb3b1cc111f402a29c4a218ff2840306a",
+	"weapon_mastery/server/main.lua": "03d447b306f9b96a85f816fe627caef773cbfda1567398279cf80c41e8d7dba6",
+	"weapon_mastery/client/minihud.lua": "28a0a679078b89303ca2b957cdc1235a8d6f74645bb3069757a5d7cc59e6ddfb",
+	"weapon_mastery/upgrades.lua": "5c23e4c3d9cea5fcf9a28e2c1d76986992a7ec10dcdceda09421143ed0f01df5",
+	"weapon_mastery/server/player/playersql.lua": "7f146f4c95c1903db324a9d3e8a7a2e791f366d6c13e79b1616cd213e1021f8e",
+	"weapon_mastery/server/player/playergun.lua": "11e11ea4968a4a8a24e9329389ca3ea5ee4efa7833dd0e12d6095bb0d32c6bb5",
+	"weapon_mastery/server/utils.lua": "b98c0c5b56439308f71cf5a1fe7b9bd7e88041adae41403c811a81551734fc07",
+	"weapon_mastery/server/sql.lua": "59390dd35ee07a1bfc6240e8f7d5f67791c23138c73bc43b12f95199383d2113",
+	"weapon_mastery/server/player/playerupgrades.lua": "c6480fbf5d0cedeef74d879d69b538bf4aedf26c70773a83cd37f1e2442f0a0e",
+	"weapon_mastery/client/uiparts/details.lua": "4e73eb6417a0cdfe8dfeeeb45461606ea8a0946d47e82490c114420e6cda5a8a",
+	"weapon_mastery/client/uiparts/upgrades.lua": "7ec46742ae918312a47430d019a640a6e1b445c4105780b844f3b7e8470100cc"
+}

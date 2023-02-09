@@ -46,5 +46,3 @@ config.RankModifier = { // makes it easier or harder to level up with a certain 
     ["vip"] = 1.2,
     ["vip+"] = 1.1,
 }
-
-
