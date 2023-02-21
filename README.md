@@ -2,7 +2,7 @@
 
 ## Intro
 
-Allows you users to level up their weapons and gain upgrades.
+Allows your users to level up their weapons and gain upgrades.
 
 ## Features
 
