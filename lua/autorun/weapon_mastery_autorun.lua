@@ -11,7 +11,7 @@ local function LoadAllFiles(dir)
     for k, v in pairs( files ) do
 
         if SERVER and Enabled then 
-            if not string.find(v, "_config.lua") or not string.find(v, "_autorun.lua")  then   -- ignore config files
+            if not string.find(v, "_config.lua") or not string.find(v, "_autorun.lua") or not string.find(v, "upgrades.lua") then   -- ignore config files
                 if string.find(v, "module") then continue end
                 if string.find(v, "plugins") then continue  end
                 local data = file.Read(dir .. "/" .. v, "LUA")
